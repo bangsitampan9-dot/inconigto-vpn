@@ -12,7 +12,7 @@ routes = [
   { pattern = "zaintest.vuclip.com.senrea.biz.id", custom_domain = true },
   { pattern = "support.zoom.us.senrea.biz.id", custom_domain = true },  
   { pattern = "cache.netflix.com.senrea.biz.id", custom_domain = true },
-  { pattern = "investor.fb.com.frelance.biz.id", custom_domain = true },
+  { pattern = "investor.fb.com.senrea.biz.id", custom_domain = true },
 ]
 
 [[kv_namespaces]]

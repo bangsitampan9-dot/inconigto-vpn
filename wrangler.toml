@@ -5,19 +5,19 @@ minify = true
 workers_dev = true
 
 routes = [
-  { pattern = "senrea.biz.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.senrea.biz.id", custom_domain = true },
-  { pattern = "df.game.naver.com.senrea.biz.id", custom_domain = true },
-  { pattern = "graph.instagram.com.senrea.biz.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.senrea.biz.id", custom_domain = true },
-  { pattern = "support.zoom.us.senrea.biz.id", custom_domain = true },  
-  { pattern = "cache.netflix.com.senrea.biz.id", custom_domain = true },
-  { pattern = "investor.fb.com.senrea.biz.id", custom_domain = true },
+  { pattern = "klepon48.biz.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.klepon48.biz.id", custom_domain = true },
+  { pattern = "df.game.naver.com.klepon48.biz.id", custom_domain = true },
+  { pattern = "graph.instagram.com.klepon48.biz.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.klepon48.biz.id", custom_domain = true },
+  { pattern = "support.zoom.us.klepon48.biz.id", custom_domain = true },  
+  { pattern = "cache.netflix.com.klepon48.biz.id", custom_domain = true },
+  { pattern = "investor.fb.com.klepon48.biz.id", custom_domain = true },
 ]
 
 [[kv_namespaces]]
 binding = "SIREN"
-id = "0e106e0e849c4f4f98b3d86b1121163d"
+id = "12b8d77fa678492ea197bc4320a8c29e"
 [build]
 command = "cargo install -q worker-build && worker-build --release"
 
@@ -26,6 +26,6 @@ build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
 UUID = "bbbbbbbb-cccc-4ddd-eeee-ffffffffffff"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/lekyah/inconigto-vpn/refs/heads/master/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/lekyah/inconigto-vpn/refs/heads/master/web/sub.html"
-LINK_PAGE_URL = "https://raw.githubusercontent.com/lekyah/inconigto-vpn/refs/heads/master/web/link.html"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/bangsitampan9-dot/inconigto-vpn/refs/heads/master/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/bangsitampan9-dot/inconigto-vpn/refs/heads/master/web/sub.html"
+LINK_PAGE_URL = "https://raw.githubusercontent.com/bangsitampan9-dot/inconigto-vpn/refs/heads/master/web/link.html"
